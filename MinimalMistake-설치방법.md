@@ -199,6 +199,8 @@ If you forked or downloaded the `minimal-mistakes-jekyll` repo you can safely re
 
 docs 내부의 _pages 폴더는 추후 상단의 카테고리를 선택할 수 있는 양식이라,  참고용으로 사용하면  됩니다. 
 
+> docs 내부의  _post, _docs 등도 메인 디렉토리에 복사해서 유용하게 사용할 수 있음
+
 ![img](https://user-images.githubusercontent.com/45550607/102005746-c407d580-3d5e-11eb-913a-bb2e36c54f4b.png)
 
 
@@ -215,66 +217,32 @@ For a full explanation of every setting be sure to read the [**Configuration**](
 
 
 
-### Starting from `jekyll new`
+**v4 Breaking Change:** Paths for image headers, overlays, teasers, [galleries]({{ "/docs/helpers/#gallery" | relative_url }}), and [feature rows]({{ "/docs/helpers/#feature-row" | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: /assets/images/filename.jpg`. 
 
-Scaffolding out a site with the `jekyll new` command requires you to modify a few files that it creates.
 
-Edit `_config.yml`. Then:
 
-- Replace `<site root>/index.md` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html). Be sure to enable pagination if using the [`home` layout]({{ "/docs/layouts/#home-page" | relative_url }}) by adding the necessary lines to **_config.yml**.
-- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
-- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using it).
+##  
 
-### Migrating to Gem Version
+## Main index 변경하기
 
-If you're migrating a site already using Minimal Mistakes and haven't customized any of the theme files things upgrading will be easier for you.
+메인 디렉토리에  index.md 생성
 
-Start by removing the following folders and any files within them: 
+예시:
 
-```terminal
-├── _includes
-├── _layouts
-├── _sass
-├── assets
-|  ├── css
-|  ├── fonts
-|  └── js
+```
+---
+layout: single  #splash
+author_profile: true
+title: Welcome to SSS LAB
+---
+
 ```
 
-You won't need these anymore as they're bundled with the theme gem --- unless you intend to [override them](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
+레이아웃 테마를 splash 혹은 single로 선택
 
-**Note:** When clearing out the `assets` folder be sure to leave any files you've added and need. This includes images, CSS, or JavaScript that aren't already [bundled in the theme](https://github.com/mmistakes/minimal-mistakes/tree/master/assets). 
-{: .notice--warning}
 
-From `v4.5.0` onwards, the default language files are read-in automatically via the [`jekyll-data`](https://github.com/ashmaroli/jekyll-data) plugin if it's installed. For sites hosted with GitHub Pages, you still need to copy the [`_data/ui-text.yml`][ui-text.yml] file because the `jekyll-data` plugin [is unsupported on GitHub Pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins).
 
-If you customized any of these files leave them alone, and only remove the untouched ones. If done correctly your modified versions should [override](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) the versions bundled with the theme and be used by Jekyll instead.
-
-#### Update Gemfile
-
-Replace `gem "github-pages` or `gem "jekyll"` with `gem "jekyll", "~> 3.5"`. You'll need the latest version of Jekyll[^update-jekyll] for Minimal Mistakes to work and load all of the theme's assets properly, this line forces Bundler to do that.
-
-[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
-
-Add the Minimal Mistakes theme gem: 
-
-```ruby
-gem "minimal-mistakes-jekyll"
-```
-
-When finished your `Gemfile` should look something like this:
-
-```ruby
-source "https://rubygems.org"
-
-gem "jekyll", "~> 3.7"
-gem "minimal-mistakes-jekyll"
-```
-
-Then run `bundle update` and add `theme: minimal-mistakes-jekyll` to your `_config.yml`.
-
-**v4 Breaking Change:** Paths for image headers, overlays, teasers, [galleries]({{ "/docs/helpers/#gallery" | relative_url }}), and [feature rows]({{ "/docs/helpers/#feature-row" | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: /assets/images/filename.jpg`. The preferred location is now `/assets/images/` but can be placed elsewhere or externally hosted. This applies to image references in `_config.yml` and `author.yml` as well.
-{: .notice--danger}
+좋은 예시로 docs/home.md 를 참고하면 됨.
 
 ------
 

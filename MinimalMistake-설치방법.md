@@ -123,10 +123,10 @@ To install as a Gem-based theme:
 
    ​
 
-4. Set the `theme` in your project's Jekyll `_config.yml` file:
+4. **For GITHUB Page,**  comment theme` in your project's Jekyll `_config.yml` file:
 
    ```yaml
-   theme: minimal-mistakes-jekyll
+   # theme: minimal-mistakes-jekyll
    ```
 
 5. Add `jekyll-include-cache` to the `plugins` array of your `_config.yml`.
@@ -247,3 +247,13 @@ title: Welcome to SSS LAB
 ------
 
 That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
+
+
+
+## Troubleshooting
+
+### 1. Succesful in Local Server but Build Error in Github Page
+" theme" cannot be found error in Github build
+### Solution
+
+**For GITHUB Page,**  comment theme` in your project's Jekyll `_config.yml` file:

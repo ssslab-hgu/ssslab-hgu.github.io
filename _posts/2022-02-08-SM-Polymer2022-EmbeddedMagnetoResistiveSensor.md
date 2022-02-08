@@ -1,3 +1,15 @@
+---
+title: "Smart Material: Embedded Magneto-Resistive Sensor"
+header:
+  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+categories:
+  - Markup
+tags:
+  - MRE
+  - Smart Material
+toc: true
+---
+
 # Evaluation of (CNT@CIP)-Embedded Magneto-Resistive Sensor Based on Carbon Nanotube and Carbonyl Iron Powder Polymer Composites
 
 by Daeik Jang[1] ,Jae-Eun Park[2] and Young-Keun Kim[2]*

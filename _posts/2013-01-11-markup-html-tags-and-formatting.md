@@ -1,15 +1,12 @@
 ---
-title: "Markup: HTML Tags and Formatting"
+title: "Smart Material: Embedded Magneto-Resistive Sensor"
 header:
   teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
 categories:
   - Markup
 tags:
-  - content
-  - css
-  - formatting
-  - html
-  - markup
+  - MRE
+  - Smart Material
 toc: true
 ---
 

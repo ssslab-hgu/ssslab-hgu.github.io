@@ -277,6 +277,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  publication:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -339,7 +342,7 @@ defaults:
   # _publication
   - scope:
       path: ""
-      type: docs
+      type: publication
     values:
       layout: single
       read_time: false

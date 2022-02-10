@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Publication
-category: Publication
+type: publication
 permalink: /publication/
 ---
 

@@ -27,7 +27,7 @@ main:
     url: /undergraduate/
 
 # Side bar contents
-sidebar-pblication:
+docs-pulication:
   - title: Industrial AI, Sensor, Robotics
     children:
       - title: "SCIE"

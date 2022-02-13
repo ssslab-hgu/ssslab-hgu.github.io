@@ -8,19 +8,19 @@ entries_layout: grid
 related: true
 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/240_F_324285723_0FGhTFHLvirs1nFN8pECPMxE4lT0ANS1.jpg
     alt: "customizable"
     excerpt: "AI for Fault Diagnosis and Prediction"
     url: "/ai"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/roboticeyeimages.png
     alt: "fully responsive"
     excerpt: "Machine Vision, 2D Object Detection"
     url: "/dlip"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/autonomous-infographic-self-driving-car-vector-image-design-illustration-WRFWT2.jpg
     alt: "100% free"
     excerpt: "LiDAR Calibration, 3D Object Detection"
     url: "/lidar"
@@ -28,7 +28,7 @@ feature_row:
     btn_label: "Learn more"    
     
 feature_row2:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/a64a102070587756042ebb1bcb1.png
     alt: "customizable"
     excerpt: "Vibration, Frictoin Control, Sensor based on Smart Material"
     url: "/sms"
@@ -41,15 +41,9 @@ feature_row2:
 
 
 
-# Research Area
-
-
-
 ## AI / 2D, 3D Vision Sensor
 
 {% include feature_row id="feature_row" type="left" %}
-
-
 
 ## Smart Material System
 

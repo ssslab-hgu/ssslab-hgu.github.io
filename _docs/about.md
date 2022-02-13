@@ -1,9 +1,8 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Smart Sensor System Lab"
 classes: wide
 excerpt: "Who we are"
-sidebar:
 last_modified_at: 2021-05-11T10:23:16-04:00
 toc: false
 author_profile: true
@@ -11,35 +10,45 @@ author_profile: true
 
 
 
+<br/>
+
 
 
 <img src="../assets/images/ssslabmain.jpg"  title="SSSLAB_Logo" class="center">
 
 
 
+------
+
+<br/>
+
 ## Contact
 
-스마트센서시스템 연구실
+**스마트센서시스템 연구실**
 
 경북 포항시 북구 흥해읍 한동대학교 한동로 558 뉴턴홀 107호, 37554 
 
-ykkim@handong.edu
+[ykkim@handong.edu]:ykkim@handong.edu
 
-054-260-1438
+tel: 054-260-1438
 
+<br/>
 
+**Smart Sensor System Lab**
 
 NewtonHall 107
 
-Handong Global University 
+Handong Global University, 558 Handong-ro Buk-gu, 
 
-558 Handong-ro Buk-gu, 
+Pohang Gyeongbuk 37554 
 
-Pohang Gyeongbuk 37554 Republic of Korea
-
-
+Republic of Korea
 
 
+
+------
+
+<br/>
 
 
 ## Direction

@@ -1,32 +1,25 @@
 ---
 layout: single
-title: Publication
+title: Publication List
 type: publication
 permalink: /publication/
+toc: true
+toc_sticky: true
+toc_label: "Publication"
+sidebar:
+  title: "Research"
+  nav: "docs-research"
 ---
 
-# Publication: Journal
-### Research Area: 
 
-* [Sensor / Deep Learning / Machine Learning / Robotics](#Sensor-AI-Robotics)
-* [Vibration / Smart Material](#VIBRATION-SMARTMATERIAL)
-
-<br/>
-
-See also
-​    
-### [Publication: Conference](Conference.md)
-### [Project:](project.md)
-
-------
-
-<br/>
 <br/>
 
 <a name="Sensor-AI-Robotics"/>
-# Sensor AI Robotics
+# Publication- Journal 
 
-## SCI(E)
+## Sensor AI Robotics
+
+### SCI(E)
 
 1. (Under review) Hyeongseok Song, You, Ji Hwan, Seontaek Oh, Jae Eun Park,  and Young Keun Kim, Automatic Inspection System for Automotive LiDAR Alignment using a Cubic Target, IEEE Sensors Journal
 2. Kwon, Haeun, Yunkyung Song, Jae-Eun Park, and Young-Keun Kim. 2021. “A Standalone Tunable Vibration Absorber with Self-Sensing Magnetorheological Elastomer.” Smart Materials and Structures, September. https://doi.org/10.1088/1361-665X/AC26E7.
@@ -47,7 +40,7 @@ See also
 
 
 
-## SCOPUS/KCI
+### SCOPUS/KCI
 
 1. JuChan Seo, SeonTaek Oh, Young-Keun Kim, A Study of Curved Lane Detection Based on Dual Sensor Monitoring of LiDAR and Camera, Transactions of the KSAE, vol.29, no.2, 2021 , 서주찬, 오선택, 김영근, 라이다 및 카메라 듀얼 센서 모니터링 기반의 곡선 차선인식 알고리즘 연구,	한국자동차공학회 논문집 vol.29, no.2, 2021 
   2. SeonTaek Oh, HyungWoo Kim, SungHyun Cho, JiHwan You, Youngsung Kwon, Won-Sang Ra, Young-Keun Kim, Development of a Compressed Deep Neural Network for Detecting Defected Electrical Substation Insulators using a Drone, Journal of Institute of Control, Robotics and Systems, vol.26	no.11, 오선택, 김형우, 조성현, 유지환, 권용성, 나원상, 김영근,드론의 변전소 애자 이상현상 탐지를 위한 심층신경망 경량화 모델 기반 알고리즘 개발 연구, 제어로봇시스템학회 논문지
@@ -63,9 +56,9 @@ See also
 <br/>
 
 <a name="VIBRATION-SMARTMATERIAL"/>
-# VIBRATION SMARTMATERIAL 
+## VIBRATION SMARTMATERIAL 
 
-## SCI(E)
+### SCI(E)
 
 1. Kang-Hyun Lee, Jae-Eun Park and Young-Keun Kim, "Design Of A Stiffness Variable Flexible Coupling Using Magnetorheological Elastomer For Torsional Vibration Reduction", Journal Of Intelligent Material Systems And Structures, Vol 30, no 15, 2019 (SCIE)
 2. Ga Eun Yun, Dae Ik Jang, Jae-Eun Park, Young-Keun Kim, "Electric Impedance Properties Of Magnetorheological Gels For Self-Sensing Applications", Vol.19, no11, Sensors, 2019 (SCIE)
@@ -82,9 +75,11 @@ See also
 
 
 
-## SCOPUS/KCI
+### SCOPUS/KCI
 
 1. Kang Hyun Lee, Jae Eun Park, Young-Keun Kim, "Design and Analysis of Prototype of Smart Stiffness Variable Coupling for Adaptive Torsional Vibration Reduction", Transactions of the KSME-A, , 2019. (Accepted, SCOPUS/KCI in Korean) 이강현, 박재은, 김영근 , "적응적 비틀림 진동 감쇠를 위한 스마트 강성가변 커플링 프로토타입 설계 및 해석",대한기계학회논문집 A권, 2019
   2. Dae Ik Jang, Jae-Eun Park, Young-Keun Kim, Designing a Compact Module of Vibration Absorber based on Magnetorheological Elastomer with a Novel Magnetic Field Generator, 장대익, 박재은, 김영근, 자기유변 엘라스토머 기반 진동흡수기 및 자기장 발생기의 통합형 모듈 소형화 설계 연구,  대한기계학회논문집 A권, vol.43no.3	, 2019		
     3. Dae Ik Jang, Jae-Eun Park, Young-Keun Kim, Design of Magnetic Field Generator based on Magnetic Shield Effect for Stiffness Control of Magnetorheological Material, 장대익, 박재은, 김영근, 자기유변 물질의 강성제어를 위한 자기 차폐 원리 기반의 자기장 발생기 설계 대한기계학회논문집 A권, vol.41no.9, 2017		
 2. Young-Keun Kim, Hong-Bae Kim, Eunghyun Kim, Kyung-Soo Kim,“Isolating Vibration of a Miniature Linear Stirling Cryogenic Cooler with a Passive Tuned Vibration Absorber”, KSME-A. Vol 34. Issue 5. pp 605-609, 2010. (SCOPUS,KCI) 김영근, 김홍배, 김응현, 김경수, "동조질량 진동흡수기를 이용한 미니 저온쿨러의 진동 절연"대한기계학회논문집 A권, 2010. 
+
+# Publication-Conference

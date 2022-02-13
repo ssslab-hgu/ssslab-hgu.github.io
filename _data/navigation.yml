@@ -27,6 +27,43 @@ main:
     url: /undergraduate/
 
 # Side bar contents
+docs-research:
+  - title: AI/Sensor
+    children:
+      - title: "Industrial AI"
+        url: /ai/
+      - title: "2D Image"
+        url: /dlip/
+      - title: "LiDAR"
+        url: /lidar/
+
+  - title: SmartMaterial
+    children:
+      - title: "Sensor"
+        url: /sms/
+      - title: "Vibration"
+        url: /sms/
+
+  - title: Publication
+    children:
+      - title: "SCIE"
+        url: /publication/
+      - title: "KCI"
+        url: /publication/
+      - title: "Conference"
+        url: /publication/
+ 
+  - title: Project
+    children:
+      - title: "Project"
+        url: /project/
+
+  - title: Undergraduate Research
+    children:
+      - title: "MIP"
+        url: /mip/       
+  
+# Side bar contents
 docs-pulication:
   - title: Industrial AI, Sensor, Robotics
     children:
@@ -70,7 +107,7 @@ docs-pulication:
         url: /docs/stylesheets/
       - title: "JavaScript"
         url: /docs/javascript/
-        
+
 # Side bar contents
 docs:
   - title: Getting Started

@@ -15,9 +15,7 @@ sidebar:
 <br/>
 
 <a name="Sensor-AI-Robotics"/>
-# Publication- Journal 
-
-## Sensor AI Robotics
+# SCI(E) Journal
 
 
 
@@ -53,7 +51,7 @@ sidebar:
 
 
 <a name="VIBRATION-SMARTMATERIAL"/>
-## SCOPUS/KCI 
+# SCOPUS/KCI Journal
 
 
 | No   | 연도 | 분야                      | 저자/제목                                                    | 비고 |

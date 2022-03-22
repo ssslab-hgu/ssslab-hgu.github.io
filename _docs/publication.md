@@ -13,7 +13,9 @@ sidebar:
 
 # Publication List
 [Google Scholar](https://scholar.google.com/citations?user=bccKIHYAAAAJ&hl=en&oi=sra)
+
 [ORCID](https://orcid.org/0000-0002-5373-1128)
+
 [Research Gate](https://www.researchgate.net/profile/Young-Keun-Kim-3/research)
 
 <br/>
@@ -23,7 +25,7 @@ sidebar:
 
 
 
-| No   | 연도 | 분야                      | 저자/제목                                                    | 비고     |
+| No.  | Year | Category                  | Journal Title                                                | Others   |
 | ---- | ---- | ------------------------- | ------------------------------------------------------------ | -------- |
 |      |      | Smart  material/Robotics  | (Under  Review) "Friction Variable Rubber Pad using Magnetorheological Elastomer  for Robot Grippers" |          |
 | 26   | 2022 | Sensor                    | Ghorai,  Prasenjit; Eskandarian , Azim; Kim, Young-Keun; Mehr, Goodarz,, State  Estimation and Motion Prediction of Other Vehicles and Vulnerable Road Users  for Cooperative Autonomous Driving: A Survey     Transactions on Intelligent Transportation Systems (2022) | IF  6.31 |
@@ -58,7 +60,7 @@ sidebar:
 # SCOPUS/KCI Journal
 
 
-| No   | 연도 | 분야                      | 저자/제목                                                    | 비고 |
+| No.  | Year | Category                  | Journal Title                                                | Others   |
 | ---- | ---- | ------------------------- | ------------------------------------------------------------ | ---- |
 | 11   | 2021 | Sensor/AI                 | JuChan  Seo, SeonTaek Oh, Young-Keun Kim, A Study of Curved Lane Detection Based on  Dual Sensor Monitoring of LiDAR and Camera, Transactions of the KSAE, vol.29,  no.2, 2021 , 서주찬, 오선택, 김영근, 라이다 및 카메라 듀얼 센서 모니터링 기반의 곡선 차선인식 알고리즘 연구,  한국자동차공학회 논문집 vol.29, no.2, 2021 |      |
 | 10   | 2021 | Sensor/AI                 | SeonTaek  Oh, HyungWoo Kim, SungHyun Cho, JiHwan You, Youngsung Kwon, Won-Sang Ra,  Young-Keun Kim, Development of a Compressed Deep Neural Network for Detecting  Defected Electrical Substation Insulators using a Drone, Journal of Institute  of Control, Robotics and Systems, vol.26 no.11, 오선택, 김형우, 조성현, 유지환, 권용성, 나원상,  김영근,드론의 변전소 애자 이상현상 탐지를 위한 심층신경망 경량화 모델 기반 알고리즘 개발 연구, 제어로봇시스템학회 논문지 |      |

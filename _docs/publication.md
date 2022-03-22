@@ -11,7 +11,8 @@ sidebar:
   nav: "docs-research"
 ---
 
-See also
+Publication List Site 
+<br/>
 [Google Scholar](https://scholar.google.com/citations?user=bccKIHYAAAAJ&hl=en&oi=sra)
 <br/>
 [ORCID](https://orcid.org/0000-0002-5373-1128)

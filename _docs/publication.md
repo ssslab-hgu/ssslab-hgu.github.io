@@ -11,7 +11,7 @@ sidebar:
   nav: "docs-research"
 ---
 
-Publication List Site 
+Publication List Site for Smart Sensor System Lab
 <br/>
 [Google Scholar](https://scholar.google.com/citations?user=bccKIHYAAAAJ&hl=en&oi=sra)
 <br/>

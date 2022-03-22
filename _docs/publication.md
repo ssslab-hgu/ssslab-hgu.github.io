@@ -11,11 +11,11 @@ sidebar:
   nav: "docs-research"
 ---
 
-# Publication List
+See also
 [Google Scholar](https://scholar.google.com/citations?user=bccKIHYAAAAJ&hl=en&oi=sra)
-
+<br/>
 [ORCID](https://orcid.org/0000-0002-5373-1128)
-
+<br/>
 [Research Gate](https://www.researchgate.net/profile/Young-Keun-Kim-3/research)
 
 <br/>

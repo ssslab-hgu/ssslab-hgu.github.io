@@ -22,7 +22,9 @@ Publication List Site for Smart Sensor System Lab
 <br/>
 
 <a name="Sensor-AI-Robotics"/>
+
 # SCI(E) Journal
+
 
 
 
@@ -58,7 +60,9 @@ Publication List Site for Smart Sensor System Lab
 
 
 <a name="VIBRATION-SMARTMATERIAL"/>
+
 # SCOPUS/KCI Journal
+
 
 
 | No.  | Year | Category                  | Journal Title                                                | Others   |

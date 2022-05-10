@@ -4,7 +4,7 @@ Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/d
 
 ## 참고 블로그
 
-1. [Github Blog 만들기](https://velog.io/@eona1301/Github-Blog-minimal-mistakes-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0)
+1. [Github Blog 만들기](https://velog.io/@eona1301/Github-Blog-Jekyll-minimal-mistakes)
 
 ## Installation-Window (default)
 
@@ -25,13 +25,13 @@ RubyInstaller is a self-contained Windows-based installer that includes the Ruby
 
 2. Use default options for installation. Keep clicking `Next`
 
-3. Select (1) MSYS2 Base and (3) MSYS2 and MINGW installation:  Type  1,3  as instructed
+3. Select (1) MSYS2 Base and (3) MSYS2 and MINGW installation:  Type  1,3  as instructed. This is needed for installing gems with native extensions. You can find additional information regarding this in the [RubyInstaller Documentation](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system)
 
 ![image](https://user-images.githubusercontent.com/38373000/167570682-f7648fbd-0b19-4f82-a9d9-2fda064df8c2.png)
 
-3. Run the `ridk install` step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the [RubyInstaller Documentation](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system)
 
-4. Open a new commandprompt(adminstration mode) or Powershell window from the start menu. The `PATH` environment variable becomes effective.
+
+4. Open a new commandprompt(adminstration mode) from the start menu. The `PATH` environment variable becomes effective.
 
 
 
@@ -39,15 +39,21 @@ RubyInstaller is a self-contained Windows-based installer that includes the Ruby
 
 Download and open the [NodeJS installer](https://nodejs.org/en/)
 
+Install with default setting. 
+
+It will also install 'Chocolatey' on the local machine. It is similar to package manager of `apt-get` for window programs.
 
 
-In cmd(administration) window, update npm by
+
+Open a new  command prompt(administration) window, and update npm by
 
 ```
 npm install -g npm
 
 npm install -g --production windows-build-tools
 ```
+
+![image](https://user-images.githubusercontent.com/38373000/167575585-519fe84d-a86b-4218-aab5-ae6e34cbc0a1.png)
 
 
 
@@ -61,18 +67,24 @@ npm install --global gulp-cli
 
 ### Jekyll Installation
 
-   With Ruby installed, install Jekyll from the terminal:
+Go to the directory where repository for github blog is installed.
+
+Open a CMD window.
+
+With Ruby installed, install Jekyll from the terminal:
 
 ```
 gem install jekyll bundler
 
 ```
 
+![image](https://user-images.githubusercontent.com/38373000/167576506-8bce70f2-c02d-4cc3-98c7-820ce1743b41.png)
+
    Check if Jekyll has been installed properly: `jekyll -v`
 
-> 이번에는 rake를 찾을 수 없다고 뜨는 경우  `gem install rake`를 이용해 받아주도록 합니다.
+>  rake를 찾을 수 없다고 뜨는 경우  `gem install rake`를 이용해 받아주도록 합니다.
 
->  Jekyll이 잘 안되는 경우가 있다고 합니다. 아무래도 호환성 문제인 것 같은데, 이 때는 gem을 다운그레이드 하는 것도 해결책이 될 수도 있다고 합니다. 명령어 `gem update --system 2.5.0`을 실행 
+>  Jekyll이 잘 안되는 경우는 호환성 문제인 것 같은데, 이 때는 gem을 다운그레이드 하는 것도 해결책이 될 수도 있다고 합니다. 명령어 `gem update --system 2.5.0`을 실행 
 
 #  
 
@@ -87,12 +99,11 @@ If you're running Jekyll v3.7+ and self-hosting you can quickly install the them
 [^structure]: See [**Structure** page]({{ "/docs/structure/" | relative_url }}) for a list of theme files and what they do.
 
 **ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
-{: .notice--info}
 
-**
-
-Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll throw `Unknown tag 'include_cached'` errors at build.
+**Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll throw `Unknown tag 'include_cached'` errors at build.
 {: .notice--warning}
+
+
 
 ### Gem-based method
 
@@ -110,36 +121,37 @@ To install as a Gem-based theme:
    gem "minimal-mistakes-jekyll"
    ```
 
-   ​
+   
 
 2. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
 
    ```bash
-   bundle      
-   //or  bundle install
+   bundle      // bundle install
    ```
+   
 
-   ​
-
+   
 3. In the same directory, Install npm
 
    ```
    npm install
    ```
 
-   ​
+   
 
-4. **For GITHUB Page,**  comment theme` in your project's Jekyll `_config.yml` file:
+4. **For GITHUB Page,**  comment theme in your project's Jekyll `_config.yml` file:
 
    ```yaml
    # theme: minimal-mistakes-jekyll
    ```
 
+   ![image](https://user-images.githubusercontent.com/38373000/167577152-4a51f913-421d-47fd-8676-f7625d6dde47.png)
+
 5. Add `jekyll-include-cache` to the `plugins` array of your `_config.yml`.
 
-   ​
+   <img src="https://user-images.githubusercontent.com/38373000/167577433-523876a0-e78c-4fe1-b635-142a4583ccd4.png" alt="image" style="zoom:50%;" />
 
-6. To update the theme run
+6. To update the theme run in CMD
 
    ```
    bundle update
@@ -151,9 +163,7 @@ To install as a Gem-based theme:
    bundle exec jekyll serve
    ```
 
-8. Check the site in the local host
-
-http://localhost:4000/
+8. Check the site in the local host: http://localhost:4000/
 
 
 
@@ -164,9 +174,9 @@ http://localhost:4000/
 1. Modify contents
 2. Execute:
 
-```
-$ bundle
-```
+    ```
+     bundle
+    ```
 
 1. Run the server
 
@@ -174,12 +184,9 @@ $ bundle
    bundle exec jekyll serve
    ```
 
+4. Check the site in the local host:  http://localhost:4000/ 
 
-1. Check the site in the local host
 
-   http://localhost:4000/ 
-
-   ​
 
 
 
@@ -199,9 +206,9 @@ If you forked or downloaded the `minimal-mistakes-jekyll` repo you can safely re
 - `screenshot-layouts.png`
 - `screenshot.png`
 
-## 
 
- 	![img](https://user-images.githubusercontent.com/45550607/102005471-5a86c780-3d5c-11eb-8ad4-bc5fd466ed57.png)
+
+![img](https://user-images.githubusercontent.com/45550607/102005471-5a86c780-3d5c-11eb-8ad4-bc5fd466ed57.png)
 
 docs 내부의 _pages 폴더는 추후 상단의 카테고리를 선택할 수 있는 양식이라,  참고용으로 사용하면  됩니다. 
 
@@ -217,8 +224,8 @@ You can modify the theme by changing the settings in `_config.yml` of Root Direc
 
 
 
-**Note:** for technical reasons, `_config.yml` is NOT reloaded automatically when used with `jekyll serve`. If you make any changes to this file, please restart the server process for them to be applied.
-
+**Note:** for technical reasons, `_config.yml` is NOT reloaded 	automatically when used with `jekyll serve`. If you make any changes to this file, please restart the server process for them to be applied.
+	
 For a full explanation of every setting be sure to read the [**Configuration**]({{ "/docs/configuration/" | relative_url }}) section.
 
 
@@ -252,14 +259,17 @@ title: Welcome to SSS LAB
 
 ------
 
+
+
 That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
 
 
 
 ## Troubleshooting
 
-### 1. Succesful in Local Server but Build Error in Github Page
+### 1. Successful in Local Server but Build Error in Github Page
 " theme" cannot be found error in Github build
 ### Solution
 
-**For GITHUB Page,**  comment theme` in your project's Jekyll `_config.yml` file:
+**For GITHUB Page,**  comment `theme` in your project's Jekyll `_config.yml` file:
+

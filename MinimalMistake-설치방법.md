@@ -16,16 +16,22 @@ The easiest way to install Ruby and Jekyll is by using the [RubyInstaller](https
 
 RubyInstaller is a self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more.
 
-1. Download and install a **Ruby+Devkit** version from [RubyInstaller Downloads](https://rubyinstaller.org/downloads/). Use default options for installation.
+1. Download and install a **Ruby+Devkit** version from [RubyInstaller Downloads](https://rubyinstaller.org/downloads/). 
 
    e.g. rubyinstaller-devkit 2.7.x(x86)
 
    > 여기서 가장 중요한 것은 **Jekyll은 32bit**이기에, 설치시 (x64)가 아닌 **(x86)**으로 진행해야합니다.
    > 이는 초기 설정시 제일 빈번하게 발생하는 세팅 오류이기 때문에, 꼭 신경써서 설치해주셔야 합니다.
 
-2. Run the `ridk install` step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the [RubyInstaller Documentation](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system)
+2. Use default options for installation. Keep clicking `Next`
 
-3. Open a new command prompt window from the start menu, so that changes to the `PATH` environment variable becomes effective.
+3. Select (1) MSYS2 Base and (3) MSYS2 and MINGW installation:  Type  1,3  as instructed
+
+![image](https://user-images.githubusercontent.com/38373000/167570682-f7648fbd-0b19-4f82-a9d9-2fda064df8c2.png)
+
+3. Run the `ridk install` step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the [RubyInstaller Documentation](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system)
+
+4. Open a new commandprompt(adminstration mode) or Powershell window from the start menu. The `PATH` environment variable becomes effective.
 
 
 
@@ -35,7 +41,7 @@ Download and open the [NodeJS installer](https://nodejs.org/en/)
 
 
 
-In cmd(administration), update npm
+In cmd(administration) window, update npm by
 
 ```
 npm install -g npm

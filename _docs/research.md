@@ -10,7 +10,7 @@ related: true
 feature_row:
   - image_path: /assets/images/iai_icon.png
     alt: "customizable"
-    excerpt: "AI for Fault Diagnosis and Prediction"
+    excerpt: "AI for Fault Diagnosis and Prediction, AI model for Quality Inspection, AI for Manufacturing Process"
     url: "/ai"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -33,7 +33,7 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/sm_icon.png
     alt: "customizable"
-    excerpt: "Vibration, Frictoin Control, Sensor based on Smart Material"
+    excerpt: "Vibration, Friction Control, Sensor based on Smart Material"
     url: "/sms"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -48,7 +48,7 @@ feature_row3:
 
 {% include feature_row id="feature_row" type="left" %}
 
-## Perception: 2D Image, 3D LiDAR 
+## 2D-3D Perception
 
 {% include feature_row id="feature_row2" type="left" %}
 

@@ -220,6 +220,14 @@ docs 내부의 _pages 폴더는 추후 상단의 카테고리를 선택할 수 �
 
 ## Style Modification
 
+Also read:
+
+* https://inhyeokyoo.github.io/github%20pages/tips-for-minimal-mistakes/
+
+* https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/
+
+
+
 You can modify the theme by changing the settings in `_config.yml` of Root Directory
 
 
@@ -234,7 +242,96 @@ For a full explanation of every setting be sure to read the [**Configuration**](
 
 
 
-##  
+## Font size 변경하기
+
+### Method 1: _resec.scss
+
+- 수정 파일 : github.io 폴더 > _sass 폴더 > _minimal-mistakes 폴더 > _reset.scss
+
+```scss
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-size: 16px;                    // Default 16px;
+
+  @include breakpoint($medium) {
+    font-size: 16px;                  // Default 18px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px;                  // Default 20px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px;                  // Default 22px;
+  }
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+```
+
+### Method 2: _resec.scss
+
+ /[assets]/[css]/**main.scss**
+
+폰트 사이즈만 오버라이딩하는 방법임.
+
+```
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+html {
+    font-size: 16px; // change to whatever
+    @include breakpoint($medium) {
+      font-size: 18px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 18px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 18px; // change to whatever
+    }
+}
+```
+
+
+
+# TOC 폰트 사이즈 수정
+
+TOC 폰트 사이즈는 자동적으로 page width에 따라 가변되도록 설정되어 있다.  `_sass\minimal-mistakes\_navigation.scss` 파일에서 확인
+
+
+
+H1~H4의 사이즈는  `_sass\minimal-mistakes\_variables.scss`에서 설정 가능.
+
+```css
+/* headline scale */
+$h-size-1: 2.7em !default; // ~25.008px
+$h-size-2: 2.0em !default; // ~20px
+$h-size-3: 1.75em !default; // ~18px
+$h-size-4: 1.5em !default; // ~17px
+//$h-size-1: 1.563em !default; // ~25.008px
+//$h-size-2: 1.25em !default; // ~20px
+//$h-size-3: 1.125em !default; // ~18px
+//$h-size-4: 1.0625em !default; // ~17px
+$h-size-5: 1.03125em !default; // ~16.5px
+$h-size-6: 1em !default; // ~16px
+
+```
+
+
+
+
 
 ## Main index 변경하기
 

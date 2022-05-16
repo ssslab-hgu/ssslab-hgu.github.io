@@ -18,7 +18,7 @@ related: true
 
 
 
-# Industry Applied Intelligence
+# 
 
 
 
@@ -44,7 +44,7 @@ https://m.etnews.com/20220113000057
 
 <br/>
 
-### EEG-inception: an accurate and robust end-to-end neural networkfor EEG-based motor imagery classification
+### EEG-inception: an accurate and robust end-to-end neural network for EEG-based motor imagery classification
 
 
 
@@ -59,3 +59,23 @@ classification that outperforms the state-of-the-art methods.
 Citation
 
 Zhang, Ce, Young-Keun Kim, and Azim Eskandarian. "EEG-inception: an accurate and robust end-to-end neural network for EEG-based motor imagery classification." Journal of Neural Engineering 18.4 (2021): 046014. 
+
+
+
+# H1
+
+Zhang, Ce, Young-Ke
+
+## H2
+
+Zhang, Ce, Young-Ke
+
+### H3
+
+Zhang, Ce, Young-Ke
+
+#### H4
+
+Zhang, Ce, Young-Ke
+
+## 

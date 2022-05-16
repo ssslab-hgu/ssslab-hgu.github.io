@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "<i class='fas fa-download'></i>Youtube Channel"
-      url: "/docs/quick-start-guide/"
+      url: "https://www.youtube.com/channel/UCbqlYFv4Ag01rmWbIfQUsHw"
 excerpt: >
   School of Mechanical & Control Engineering, Handong Global University.<br />
   <small>Prof. Young-Keun Kim</small>
@@ -75,12 +75,9 @@ intro:
 {% include feature_row %}
 
 ------
-# Latest News
+# Highlights
 
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 
 ------
-# Notice
-
-1. Click Here
